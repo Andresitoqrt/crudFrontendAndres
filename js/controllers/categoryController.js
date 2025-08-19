@@ -3,7 +3,7 @@ import {
     createCategory,
     updateCategory,
     deleteCategory
-} from "../services/categoryService.js";
+} from "../services/categoryServices.js";
  
 document.addEventListener("DOMContentLoaded", ()=>{
     const tableBody = document.querySelector("#categoriesTable tbody"); //Tbody - Cuerpo de la tabla
